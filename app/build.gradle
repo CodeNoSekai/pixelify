@@ -13,8 +13,8 @@ android {
         applicationId "node.ditzdev.pixelify"
         minSdk 24
         targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        versionCode 99
+        versionName "1.0.0-beta"
         
         vectorDrawables { 
             useSupportLibrary true
