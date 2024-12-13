@@ -1,0 +1,51 @@
+
+plugins {
+    id 'com.android.application'
+    id 'com.google.android.gms.oss-licenses-plugin'
+}
+
+android {
+    namespace 'node.ditzdev.pixelify'
+    compileSdk 33
+    buildToolsVersion '33.0.0'
+    
+    defaultConfig {
+        applicationId "node.ditzdev.pixelify"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+        
+        vectorDrawables { 
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    buildFeatures {
+        viewBinding true
+        aidl true
+    }
+    
+}
+
+dependencies {
+    implementation("dev.rikka.shizuku:api:12.1.0")
+    implementation("dev.rikka.shizuku:provider:12.1.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("com.google.android.gms:play-services-oss-licenses:17.0.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+}

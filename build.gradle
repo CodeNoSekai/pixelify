@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.0'
+        classpath 'com.google.android.gms:oss-licenses-plugin:0.10.4'
+    }
+}
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}                  
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

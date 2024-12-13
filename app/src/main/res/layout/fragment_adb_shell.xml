@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/swipeRefreshLayout">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:text="1. Setup ADB On Your PC" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:text="First, You have to download ADB Tools Resource, Click the button below" />
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="?attr/android:colorBackground"
+                    android:id="@+id/btnLinkAdb"
+                    android:text="Download ADB Tools" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="15dp"
+                    android:text="2. Give Permission" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:text="If you have downloaded and done some configuration, Write this command:\n&quot;adb shell pm grant node.ditzdev.pixelify android.permission.WRITE_SECURE_SETTINGS&quot;\nOn Your Terminal ADB." />
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="?attr/android:colorBackground"
+                    android:id="@+id/btnCopy"
+                    android:text="Copy Command Here" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:text="If so, the &quot;Continue&quot; button below will be automatically enabled after refresh this page." />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="?attr/android:colorBackground"
+            android:id="@+id/btnContinue"
+            android:text="Continue" />
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

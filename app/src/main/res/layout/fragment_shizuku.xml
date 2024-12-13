@@ -1,0 +1,92 @@
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefreshLayout"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="vertical">
+		<androidx.core.widget.NestedScrollView
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="1. Download Shizuku on PlayStore"
+					android:textSize="20sp" />
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Make sure you have Shizuku installed on your phone."
+					android:textSize="16sp" />
+				<Button
+					android:id="@+id/btnlinkShizuku"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+                    android:textColor="?attr/android:colorBackground"
+					android:text="Click Here To Download" />
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:padding="8dp"
+					android:text="2. Setup Shizuku"
+					android:textSize="20sp" />
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="See the full tutorial on how to configure Shizuku"
+					android:textSize="16sp" />
+                <Button
+					android:id="@+id/btnTutorialShizuku"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+                    android:textColor="?attr/android:colorBackground"
+					android:text="See full tutorial on YouTube" />
+                <TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:padding="8dp"
+					android:text="3. Grant Permission"
+					android:textSize="20sp" />
+            	<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+                    android:text="If you have configured your Shizuku correctly, Just follow these easy steps here, Just click the button below to authenticate Shizuku."
+			    	android:textSize="16sp" />
+                <Button
+					android:id="@+id/btnConnect"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+                    android:textColor="?attr/android:colorBackground"
+					android:text="Connect Here" />
+			</LinearLayout>
+		</androidx.core.widget.NestedScrollView>
+		<Button
+			android:id="@+id/btnContinue"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+            android:textColor="?attr/android:colorBackground"
+			android:text="Continue" />
+	</LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
