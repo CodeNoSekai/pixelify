@@ -32,7 +32,16 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
-
+    
+    signingConfigs {
+        release {
+            storeFile file("pixelify.keystore")
+            storePassword "pixelify"
+            keyAlias "pixelify"
+            keyPassword "pixelify"
+        }
+    }
+    
     buildFeatures {
         viewBinding true
         aidl true
