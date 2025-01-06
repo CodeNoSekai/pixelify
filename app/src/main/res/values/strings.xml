@@ -2,24 +2,24 @@
 <resources>
     <string name="app_name">Pixelify</string>
     <!-- DIALOG -->
-    <string name="title_warning_dialog">Warning!</string>
-    <string name="subtitle_warningfirst_dialog">This application can change the resolution on the device, USE WITH CAUTION AND AT YOUR OWN RISK!!!</string>
-    <string name="action_understand">Understand</string>
-    <string name="action_reject">Reject</string>
+    <string name="title_warning_dialog">Peringatan!</string>
+    <string name="subtitle_warningfirst_dialog">Aplikasi ini dapat mengubah resolusi pada perangkat, GUNAKAN DENGAN HATI-HATI DAN RISIKO DITANGGUNG SENDIRI!!!</string>
+    <string name="action_understand">Mengerti</string>
+    <string name="action_reject">Tolak</string>
     
-    <!-- ACTIVITY GET STARTUP -->
-    <string name="startup_page_title">Get Startup</string>
-    <string name="startup_page_subtitle">Lets get started and activate the Pixelify service by selecting the method below.</string>
-    <string name="shizuku_title">Starts with Shizuku</string>
-    <string name="shizuku_subtitle">Start with Shizuku, Click here to activate.</string>
+    <!-- HALAMAN MULAI -->
+    <string name="startup_page_title">Mulai Startup</string>
+    <string name="startup_page_subtitle">Mari mulai dan aktifkan layanan Pixelify dengan memilih metode di bawah ini.</string>
+    <string name="shizuku_title">Mulai dengan Shizuku</string>
+    <string name="shizuku_subtitle">Mulai dengan Shizuku, Klik di sini untuk mengaktifkan.</string>
     <string name="adb_title">ADB Shell</string>
-    <string name="adb_subtitle">Start with ADB Shell, Click here to get the command.</string>
-    <string name="root_title">ROOT Users</string>
-    <string name="root_subtitle">For Root users, Just click here to start and grant Permission.</string>
-    <string name="action_continue">Continue</string>
-    <string name="action_docs_shizuku">&lt;a href="https://shizuku.rikka.app/guide/setup/">Click here&lt;/a> for more documentation setup &lt;a href="https://shizuku.rikka.app/">Shizuku.&lt;/a></string>
-    <string name="no_shizuku_found">Shizuku not found, Are you installed Shizuku?</string>
-    <string name="failed_requestperm_shizuku">failed to get permission from Shizuku</string>
-    <string name="success_root_permission">Root permission granted successfully</string>
-    <string name="failed_root_permission">Failed to get root permission</string>
-</resources>
+    <string name="adb_subtitle">Mulai dengan ADB Shell, Klik di sini untuk mendapatkan perintah.</string>
+    <string name="root_title">Pengguna ROOT</string>
+    <string name="root_subtitle">Untuk pengguna Root, Cukup klik di sini untuk memulai dan berikan izin.</string>
+    <string name="action_continue">Lanjutkan</string>
+    <string name="action_docs_shizuku">&lt;a href="https://shizuku.rikka.app/guide/setup/">Klik di sini&lt;/a> untuk dokumentasi pengaturan lebih lanjut &lt;a href="https://shizuku.rikka.app/">Shizuku.&lt;/a></string>
+    <string name="no_shizuku_found">Shizuku tidak ditemukan, Apakah Anda sudah menginstal Shizuku?</string>
+    <string name="failed_requestperm_shizuku">gagal mendapatkan izin dari Shizuku</string>
+    <string name="success_root_permission">Izin root berhasil diberikan</string>
+    <string name="failed_root_permission">Gagal mendapatkan izin root</string>
+</resources>a
