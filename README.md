@@ -13,7 +13,7 @@
 ## Features
 - [x] Template Resolution
 - [x] Custom Resolution
-- [x] Up to Android 15 Support (Untested)
+- [x] Up to Android 15 Support (TESTED ON Google Pixel 8a SDK 35)
 
 ## Downloads
 To download this application, please go to the page [Release](https://github.com/DitzDev/pixelify/releases)
