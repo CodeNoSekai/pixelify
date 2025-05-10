@@ -12,6 +12,11 @@
                 android:title="@string/string_settings"
                 android:icon="@drawable/ic_settings"
                 app:showAsAction="never"/>
+            <item
+                android:id="@+id/menuAbout"
+                android:title="@string/about_app"
+                android:icon="@drawable/info_24px"
+                app:showAsAction="never"/>
         </menu>
     </item>
 </menu>

@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.google.android.material.textview.MaterialTextView
 import iiec.ditzdev.pixelify.databinding.ActivityMainBinding
+import iiec.ditzdev.pixelify.R
 import java.io.File
 import java.io.FileOutputStream
 import java.text.SimpleDateFormat
@@ -48,6 +49,17 @@ class MainActivity : AppCompatActivity() {
 
         log("WRITE_SECURE_SETTINGS permission granted")
         setupPermissionChecker()
+
+        // Toolbar
+        binding?.toolbar?.setOnMenuItemClickListener { item ->
+            when (item.itemId) {
+                R.id.menuSettings -> {
+                    startActivity(Intent(this, SettingsActivity::class.java))
+                    true
+                }
+                else -> false
+            }
+        }
     }
 
     private fun log(message: String) {
@@ -56,7 +68,6 @@ class MainActivity : AppCompatActivity() {
 
         runOnUiThread {
             logTextView?.append(logEntry)
-            // Auto-scroll to bottom
             logScrollView?.post {
                 logScrollView?.fullScroll(ScrollView.FOCUS_DOWN)
             }

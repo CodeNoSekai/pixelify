@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Pixelify</string>
     <string name="app_slogan">Turn your screen into Pixel as you want</string>
-    <!-- Splash String -->
     <string name="splash_greetings">Welcome to Pixelify!</string>
-    <!-- Startup string -->
     <string name="startup_first_text">Let\'s complete some steps before using Pixelify. Use ADB to allow the special permissions needed. Don\'t worry, We will not do anything other than the main function in the Pixelify App. <a href="https://github.com/DitzDev/pixelify">Click here to learn more about Pixelify.</a>\n\nPaste this command to your ADB Terminal:</string>
     <string name="startup_waiting_text">Waiting for permission…</string>
     <string name="startup_hi_there">Hi There!</string>
@@ -33,4 +31,20 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="settings">Settings</string>
+    <string name="appearrance">Appearrance</string>
+    <string name="ui_mode">UI Mode</string>
+    <string name="subtitle_ui_mode">Set the application theme according to your preference</string>
+    <string name="application_settings">Application Settings</string>
+    <string name="smart_alerts">Smart Alerts</string>
+    <string name="subtitle_smart_alerts">The application will tell you the resolutions that are harmful to your system.</string>
+    <string name="logging">Logging</string>
+    <string name="subtitle_logging">This will be useful to inform the Application process.</string>
+    <string name="about_app">\tAbout App</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="follow_system">Follow System</string>
+    <string name="select_theme">Select Theme</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>
