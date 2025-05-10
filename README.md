@@ -13,9 +13,7 @@
 ## Features
 - [x] Template Resolution
 - [x] Custom Resolution
-- [x] Support ADB Access
-- [x] Support ROOT Access (UNTESTED)(With Magisk)
-- [x] Up to Android 13 Support
+- [x] Up to Android 15 Support (Untested)
 
 ## Downloads
 To download this application, please go to the page [Release](https://github.com/DitzDev/pixelify/releases)
