@@ -9,6 +9,7 @@ class Pixelify : Application() {
 
     companion object {
         const val USER_PREFS: String = "user_prefs"
+        const val PREFS_SMART_ALERTS: String = "prefs_smart_alert"
         const val THEME_MODE: String = "theme_mode"
     }
 

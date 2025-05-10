@@ -113,7 +113,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16sp"
                 android:text="@string/log_app"
+                android:textStyle="bold"
                 android:textSize="20sp"
+                android:padding="8dp"
                 android:fontFamily="@font/gilroy" />
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"

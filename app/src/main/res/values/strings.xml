@@ -47,4 +47,7 @@
     <string name="select_theme">Select Theme</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
+    <string name="string_dialog_warning">The resolution you\'ve chosen is significantly different from your device\'s default.\n\nThis might cause system instability or UI issues.\n\nCurrent Default: %1$sx%2$s\nNew Resolution: %3$sx%4$s @ %5$sdpi\n\nAre you sure you want to proceed?</string>
+    <string name="warning">Warning</string>
+    <string name="continue_anyway">Continue Anyway</string>
 </resources>
