@@ -79,7 +79,10 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this, SettingsActivity::class.java))
                     true
                 }
-
+                R.id.menuAbout -> {
+                    startActivity(Intent(this, AboutActivity::class.java))
+                    true
+                }
                 else -> false
             }
         }

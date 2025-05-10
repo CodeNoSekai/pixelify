@@ -55,4 +55,8 @@
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
+    <style name="CircleImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>

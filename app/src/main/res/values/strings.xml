@@ -50,4 +50,20 @@
     <string name="string_dialog_warning">The resolution you\'ve chosen is significantly different from your device\'s default.\n\nThis might cause system instability or UI issues.\n\nCurrent Default: %1$sx%2$s\nNew Resolution: %3$sx%4$s @ %5$sdpi\n\nAre you sure you want to proceed?</string>
     <string name="warning">Warning</string>
     <string name="continue_anyway">Continue Anyway</string>
+
+    <string name="about_activity_title">About the App</string>
+
+    <string name="about_app_title">About the App</string>
+    <string name="about_app_description">Pixelify is an application that allows users to freely adjust the default screen resolution of their device without the need to ROOT. This app uses the WRITE_SECURE_SETTINGS permission to access a hidden Android API called IWindowManager.</string>
+
+    <string name="source_code_title">Source Code</string>
+    <string name="view_source_code">View on GitHub</string>
+
+    <string name="contributors_title">Contributors</string>
+    <string name="contributor_avatar_desc">Contributor Profile Photo</string>
+    <string name="contributor_github_desc">Contributor GitHub Profile</string>
+
+    <string name="sponsor_title">Support Development</string>
+    <string name="sponsor_description">If you like the Pixelify app and want to support its development, you can sponsor or make a donation. Every support means a lot to us!</string>
+    <string name="become_sponsor">Become a Sponsor</string>
 </resources>
