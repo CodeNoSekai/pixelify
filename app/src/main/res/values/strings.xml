@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pixelify</string>
+    <string name="app_slogan">Turn your screen into Pixel as you want</string>
+    <!-- Splash String -->
+    <string name="splash_greetings">Welcome to Pixelify!</string>
+    <!-- Startup string -->
+    <string name="startup_first_text">Let\'s complete some steps before using Pixelify. Use ADB to allow the special permissions needed. Don\'t worry, We will not do anything other than the main function in the Pixelify App. <a href="https://github.com/DitzDev/pixelify">Click here to learn more about Pixelify.</a>\n\nPaste this command to your ADB Terminal:</string>
+    <string name="startup_waiting_text">Waiting for permission…</string>
+    <string name="startup_hi_there">Hi There!</string>
+    <string name="startup_menu_helper_adb">What\'s is ADB?</string>
+    <string name="startup_copy_toast">Copied to clipboard.</string>
+    <string name="more_options">More options</string>
+    <string name="string_settings">\tSettings</string>
+    <string name="btn_save_change">Save change</string>
+    <string name="btn_reset">Reset to default</string>
+    <string name="export_log">Export Log</string>
+    <string name="apply_resolution">Apply Resolution</string>
+    <string name="log_app">Log App</string>
+    <string name="reset_resolution">Reset Resolution</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
