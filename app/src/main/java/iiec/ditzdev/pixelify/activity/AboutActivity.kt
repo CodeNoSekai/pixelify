@@ -65,7 +65,7 @@ class AboutActivity : AppCompatActivity() {
                 githubUrl = "https://github.com/YukiChanDev"
             ),
             Contributor(
-                name = "Sandri kun >//<",
+                name = "Sandri-kun >//<",
                 role = "Full Stack Developer",
                 avatarUrl = "https://github.com/sandri-kun.png",
                 githubUrl = "https://github.com/sandri-kun"
