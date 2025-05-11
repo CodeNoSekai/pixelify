@@ -20,18 +20,26 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: gradle
-
+        
+    - name: Decode Keystore from Secret
+      run: |
+        echo "${{ secrets.KEYSTORE_FILE }}" | base64 -d > app/release-keystore.jks
+        
     - name: Grant execute permission for gradlew
       run: chmod +x ./gradlew
 
     - name: Build release APK
+      env:
+        KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
       run: ./gradlew assembleRelease
       
-    - name: Show APK location
-      run: find . -type f -name "*.apk"  
+    - name: Confirm APK location
+      run: find app/build/outputs/apk/release -name "*.apk"
       
     - name: Upload APK to GitHub Actions Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: release-apk
-        path: pixelify/build/outputs/apk/release/app-release.apk
+        path: app/build/outputs/apk/release/app-release.apk
