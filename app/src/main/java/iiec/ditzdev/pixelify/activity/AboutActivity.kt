@@ -58,6 +58,12 @@ class AboutActivity : AppCompatActivity() {
                 avatarUrl = "https://github.com/Paxsenix0.png",
                 githubUrl = "https://github.com/Paxsenix0"
             ),
+            Contributor(
+                name = "Yukii >•<",
+                role = "Full Stack Developer",
+                avatarUrl = "https://github.com/YukiChanDev.png",
+                githubUrl = "https://github.com/YukiChanDev"
+            ),
         )
 
         val recyclerView = findViewById<RecyclerView>(R.id.rv_contributors)
