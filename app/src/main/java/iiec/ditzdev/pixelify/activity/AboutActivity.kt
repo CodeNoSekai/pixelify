@@ -16,7 +16,7 @@ import android.widget.TextView
 class AboutActivity : AppCompatActivity() {
 
     private val sourceCodeUrl = "https://github.com/DitzDev/pixelify"
-    private val sponsorUrl = "https://github.com/sponsors/DitzDev"
+    private val sponsorUrl = "https://opencollective.com/pixelify"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -57,6 +57,12 @@ class AboutActivity : AppCompatActivity() {
                 role = "Backend Developer",
                 avatarUrl = "https://github.com/Paxsenix0.png",
                 githubUrl = "https://github.com/Paxsenix0"
+            ),
+            Contributor(
+                name = "Yukii >•<",
+                role = "Full Stack Developer",
+                avatarUrl = "https://github.com/YukiChanDev.png",
+                githubUrl = "https://github.com/YukiChanDev"
             ),
         )
 
