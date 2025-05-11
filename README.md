@@ -11,15 +11,15 @@
 >This application can change the default Resolution Configuration settings of the Device, Please use this application at your own risk. The developer is not responsible for any damage resulting from this application.
 
 ## Features
-- [x] Template Resolution
+- [x] Support non ROOT Devices
 - [x] Custom Resolution
-- [x] Up to Android 15 Support (TESTED ON Google Pixel 8a SDK 35)
+- [x] Up to Android 15 Support (See Release Changelog)
 
 ## Downloads
 To download this application, please go to the page [Release](https://github.com/DitzDev/pixelify/releases)
 
 ## Contribution
-Pixelify is an open source Android App project, We would love and be very open if you contribute and make this project much better.
+Pixelify is an open source Android App project, We would love and be very open if you contribute and make this project much better. Create a fork and put your name [Here.](app/src/main/java/iiec/ditzdev/pixelify/activity/AboutActivity.kt)
 
 ## License
 This application is licensed under the *Apache 2.0 License*. To view the License, [Click here](LICENSE)
