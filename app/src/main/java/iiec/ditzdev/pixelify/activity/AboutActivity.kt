@@ -16,7 +16,7 @@ import android.widget.TextView
 class AboutActivity : AppCompatActivity() {
 
     private val sourceCodeUrl = "https://github.com/DitzDev/pixelify"
-    private val sponsorUrl = "https://github.com/sponsors/DitzDev"
+    private val sponsorUrl = "https://opencollective.com/pixelify"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
