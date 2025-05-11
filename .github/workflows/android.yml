@@ -26,9 +26,12 @@ jobs:
 
     - name: Build release APK
       run: ./gradlew assembleRelease
-
+      
+    - name: Show APK location
+      run: find . -type f -name "*.apk"  
+      
     - name: Upload APK to GitHub Actions Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: release-apk
-        path: app/build/outputs/apk/release/app-release.apk
+        path: pixelify/build/outputs/apk/release/app-release.apk
