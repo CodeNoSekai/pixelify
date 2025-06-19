@@ -9,7 +9,7 @@
 
 > [!warning]
 >This application can change the default Resolution Configuration settings of the Device, Please use this application at your own risk. The developer is not responsible for any damage resulting from this application.
-
+ 
 ## Features
 - [x] Support non ROOT Devices
 - [x] Custom Resolution
